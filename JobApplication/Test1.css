@@ -1,0 +1,31 @@
+legend{
+    background-image:linear-gradient( 45deg,blue,red);
+    color: white;
+    border-color: white;
+    border-radius: 0px 20px;
+    padding: 10px 15px;
+
+}
+body{
+    background-image: url(../task.html/Images/texture-wood.jpg);
+    background-repeat:repeat;
+    background-size: 700px, 700px;
+    
+}
+table{
+    width:100%;
+
+}
+header{
+    text-align: center;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-style: italic;
+}
+form{
+    margin-bottom: 10px;
+    color: white;
+
+}
+fieldset{
+    border-radius: 20px;
+}
