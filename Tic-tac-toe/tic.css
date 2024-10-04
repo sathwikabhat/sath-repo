@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color:thistle;
+    font-family: sans-serif;
+}
+.container{
+    text-align: center;
+}
+.game{
+    display: grid;
+    grid-template-columns: repeat(3,100px);
+    grid-template-rows:repeat(3,100px);
+    gap:5px;
+    margin: 20px auto;
+    box-shadow: 0 4px 8px;
+}
+.box{
+    width:100px;
+    height:100px;
+    background-color:dodgerblue;
+    border:1px solid black;
+    font-size: 36px;
+    text-align: center;
+    line-height:100px;
+    cursor:pointer;
+}
+#status{
+    font-size: 24px;
+    margin:10px 0;
+    color: black;
+}
+#restart{
+    background-color:palevioletred;
+    border:2px solid black;
+    padding: 10px 20px;
+    cursor: pointer;
+    box-shadow: 0 4px 8px ;
+    transition:transform 0.2s;
+}
+#restart:hover{
+    background-color:darkorchid;
+}
+.strike {
+    background-color: lightgreen; /* Background color to highlight the winning pattern */
+  }
+  
