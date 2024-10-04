@@ -1,0 +1,40 @@
+header{ background-color: #ccaa66;
+    color:#5a3722;
+    font-size: 160%;
+    padding: 10px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-style: italic;
+    text-align: center;
+    }
+
+    aside{ 
+        display: block;
+        padding: 60px;
+        float: left;
+        width: 50px;
+        height: 400px;
+     background-color: #FFEBC0;
+    }
+
+    aside>a{
+        text-decoration: none;
+        display: flex;
+        margin: 15px;
+        font-size: 25px;
+        color: #704f3a;
+    }
+    footer{
+        margin-top: 30px;
+    padding: 10px;
+    }
+    
+    footer>h2{
+        background-color: #ccaa66;
+        color: white;
+        width: 100%;
+    margin-top: 270px;
+    padding: 10px;
+    font-size: 17px;
+    text-align: center;
+    }
+   
